@@ -1,23 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-/*CSS per il margine e padding*/
-* {
-  padding: 0;
-  margin: 0;
-}
-/* Definisce un container che occupa tutto lo spazio disponibile della pagina
-e dispone gli elementi al suo interno centralmente sia orizzontalmente che
-verticalmente, grazie all'utilizzo di flexbox. */
-
-.container {
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
 /*CSS per per il corpo del sito*/
 body {
   height: 100vh;
