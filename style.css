@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(135deg, #333333, #999999);
     color: white;
+    blur() = blur( <length>? )
 }
 
 header {
