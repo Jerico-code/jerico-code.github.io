@@ -117,41 +117,60 @@ un effetto di sfondo a due colori. */
   -webkit-transform: translateX(1);
   }
   }
-  .banner {
-    position: relative;
-    width: 100%;
-    max-width: 800px; /* modifica la larghezza massima del banner se necessario */
-    margin: 0 auto;
-  }
-  
-  .banner img {
-    display: block;
-    width: 100%;
-    height: 9pc;
+   .banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0077c2;
+        padding: 10px;
+        color: white;
+      }
 
-  }
-  
-  .banner-text {
-    position: absolute;
-    top: 95px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    font-family: 'Avenir'sans-serif;
-      
-  }
-  
-  .banner-text h1 {
-    margin-top: 0;
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  .img-resize {
-    max-width: 50%;
-    max-height: 50%;
-  }
-  
-  
+      .logo-container {
+        flex: 0 0 auto;
+        margin-right: 20px;
+      }
 
-  
+      .logo-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+      }
+
+      .text-container {
+        flex: 1 1 auto;
+        text-align: right;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .text-container h1 {
+        margin: 0;
+        padding: 0;
+      }
+
+      .text-container p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .text-container h1 span {
+        display: inline-block;
+        transform: rotateY(90deg);
+        transform-origin: left top;
+        animation: slideIn 1s ease-out forwards;
+      }
+
+      @keyframes slideIn {
+        from {
+          transform: rotateY(90deg);
+          opacity: 0;
+        }
+        to {
+          transform: rotateY(0deg);
+          opacity: 1;
+        }
+      }
