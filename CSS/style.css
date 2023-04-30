@@ -11,6 +11,7 @@ body {
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
+  font-size: 20px;
 }
 
 span{
@@ -31,9 +32,13 @@ a {
 
 .bordoTitolo{
   box-shadow:5px 5px 3px #000000;
-        vertical-align:middle;
-        text-align:center;
-        border:3px double rgb(0, 0, 0);
+  vertical-align:middle;
+  text-align:center;
+  border:3px double rgb(0, 0, 0);
+  color: #ffffffc3;
+  border-radius: 15px;
+  padding: 5px;
+  animation: title-fade-in 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0)
 }
 /*bordo titolo grande*/
 .bordoCarino {
@@ -53,7 +58,7 @@ a {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
-  animation: fade-in 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 /* Animazione fade-in della scritta "Cosa sono le AI?" che aumenta gradualmente l'opacità e rimuove lo sfocatura */
@@ -61,7 +66,7 @@ a {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
-  animation: fade-in 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation: fade-in 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 @keyframes fade-in {
@@ -76,6 +81,9 @@ a {
   opacity: 0;
   filter: blur(4px);
   animation: title-fade-in 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.bordoTabella {
+  border: 1px solid black;
 }
 
 @keyframes title-fade-in {
@@ -121,7 +129,6 @@ un effetto di sfondo a due colori. */
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #0077c2;
         padding: 10px;
         color: white;
       }
@@ -135,7 +142,8 @@ un effetto di sfondo a due colori. */
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+        align-self: center;
+        box-shadow: 0px 0px 10px rgba(102, 3, 79, 0.5);
       }
 
       .text-container {
