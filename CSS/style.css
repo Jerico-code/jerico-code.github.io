@@ -29,9 +29,12 @@ a {
     color: #ffffff;
 }
 
-
-
-
+.bordoTitolo{
+  box-shadow:5px 5px 3px #000000;
+        vertical-align:middle;
+        text-align:center;
+        border:3px double rgb(0, 0, 0);
+}
 /*Animazione scritte*/
 @keyframes scale {
   100% {
