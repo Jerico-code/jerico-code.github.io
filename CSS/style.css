@@ -35,6 +35,13 @@ a {
         text-align:center;
         border:3px double rgb(0, 0, 0);
 }
+/*bordo titolo grande*/
+.bordoCarino {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
 /*Animazione scritte*/
 @keyframes scale {
   100% {
