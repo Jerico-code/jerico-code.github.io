@@ -21,13 +21,19 @@ span{
 footer{
   text-align: center;
 }
-
+p{
+  font-size: large;
+}
+u{
+  text-underline-offset: 4.5px;
+  text-decoration-color: white;
+}
 /*CSS per i link*/
 a:hover {
     text-decoration: underline;
 }
 a {
-    color: #ffffff;
+    color: #0095ff;
 }
 
 .bordoTitolo{
