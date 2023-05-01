@@ -11,7 +11,8 @@ body {
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
-  font-size: 20px;
+ 
+  font-size: large;
 }
 
 span{
@@ -20,9 +21,6 @@ span{
 
 footer{
   text-align: center;
-}
-p{
-  font-size: large;
 }
 u{
   text-underline-offset: 4.5px;
@@ -191,15 +189,16 @@ un effetto di sfondo a due colori. */
         .btn {
           display: inline-block;
           padding: 10px 20px;
-          background-color:#d20cff;
           color: #FFFFFF;
-          border: none;
-          border-radius: 5px;
           font-size: 16px;
           font-weight: bold;
           cursor: pointer;
           transition: all 0.3s ease;
           margin: 10px;
+          border: 2px solid rgba(255, 255, 255, 0.7);
+          border-radius: 20px;
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+                   
         }
         
         .btn:hover {
@@ -210,6 +209,6 @@ un effetto di sfondo a due colori. */
         .btn:active {
           transform: translateY(0px);
           box-shadow: none;
-          background-color: #d20cff;
+         
         }
         
