@@ -11,7 +11,6 @@ body {
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
- 
   font-size: large;
 }
 
@@ -65,14 +64,6 @@ a {
   animation: fade-in 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-/* Animazione fade-in della scritta "Cosa sono le AI?" che aumenta gradualmente l'opacità e rimuove lo sfocatura */
-.fade-in {
-  display: inline-block;
-  opacity: 0;
-  filter: blur(4px);
-  animation: fade-in 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
 @keyframes fade-in {
   to {
     opacity: 1;
@@ -111,7 +102,6 @@ un effetto di sfondo a due colori. */
   }
   }
   
-  /* Prefisso vendor per la compatibilità cross-browser */
   @-webkit-keyframes wave {
   2% {
   -webkit-transform: translateX(1);
