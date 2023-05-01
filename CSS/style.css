@@ -191,7 +191,7 @@ un effetto di sfondo a due colori. */
         .btn {
           display: inline-block;
           padding: 10px 20px;
-          background-color: #0077FF;
+          background-color:#d20cff;
           color: #FFFFFF;
           border: none;
           border-radius: 5px;
@@ -210,6 +210,6 @@ un effetto di sfondo a due colori. */
         .btn:active {
           transform: translateY(0px);
           box-shadow: none;
-          background-color: #0055CC;
+          background-color: #d20cff;
         }
         
