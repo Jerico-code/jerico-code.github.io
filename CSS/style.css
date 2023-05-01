@@ -186,5 +186,30 @@ un effetto di sfondo a due colori. */
         to {
           transform: rotateY(0deg);
           opacity: 1;
+        }}
+
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #0077FF;
+          color: #FFFFFF;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          margin: 10px;
         }
-      }
+        
+        .btn:hover {
+          transform: translateY(-5px);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .btn:active {
+          transform: translateY(0px);
+          box-shadow: none;
+          background-color: #0055CC;
+        }
+        
