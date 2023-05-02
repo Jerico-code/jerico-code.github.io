@@ -7,11 +7,11 @@ body {
   margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: white
-  animation: gradient 15s ease infinite;
+
   background-size: 400% 400%;
   background-attachment: fixed;
   font-size: large;
+  color:white;
 }
 
 span{
