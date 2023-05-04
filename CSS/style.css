@@ -1,4 +1,5 @@
-/*CSS per per il corpo del sito*/
+/*CSS per per il body:
+
 body {
   display: flex;
   flex-direction: column;
@@ -8,11 +9,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
   background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgb(48, 54, 238) 68%, rgb(168, 36, 204) 98%);
+  color: white;
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
   font-size: large;
-  color:white;
 }
 
 span{
